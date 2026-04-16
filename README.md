@@ -1,4 +1,4 @@
-# Currency Exchange REST API
+ # Currency Exchange REST API
 
 REST API для управления валютами и обменными курсами с поддержкой конвертации через прямой, обратный и кросс-курс (через USD).
 
@@ -6,7 +6,7 @@ REST API для управления валютами и обменными ку
 
 - **Java 17+**
 - **Spring Boot** (MVC, Data JPA)
-- **PostgreSQL / SQLite** (через Liquibase для миграций)
+- **PostgreSQL** (через Liquibase для миграций)
 - **Maven** (сборка)
 - **Lombok** (для DTO/моделей)
 
