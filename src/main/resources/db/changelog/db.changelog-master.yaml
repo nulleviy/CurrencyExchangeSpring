@@ -1,0 +1,10 @@
+databaseChangeLog:
+        - changeSet:
+                id: 1
+                author: nulleviy
+                changes:
+                        - sqlFile:
+                                path: db/changelog/ddl/init.sql
+                                relativeToChangelogFile: false
+                                splitStatements: true
+                                stripComments: true
